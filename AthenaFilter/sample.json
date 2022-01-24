@@ -1,0 +1,74 @@
+[
+	{
+		"Type": "Or",
+		"Conditions": [
+			{
+				"Type": "Equals",
+				"MatchCase": false,
+				"Value": "http"
+			},
+			{
+				"Type": "Equals",
+				"MatchCase": false,
+				"Value": "https"
+			}
+		]
+	},
+	{
+		"Type": "StartsWith",
+		"MatchCase": false,
+		"Value": "2022-01-21T"
+	},
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	{
+		"Condition": {
+			"Type": "EndsWith",
+			"MatchCase": false,
+			"Value": "0"
+		},
+		"Type": "Not"
+	},
+	null,
+	null,
+	null,
+	{
+		"Type": "Contains",
+		"MatchCase": false,
+		"Value": "knoema.com"
+	},
+	null,
+	{
+		"Type": "And",
+		"Conditions": [
+			{
+				"Type": "Regex",
+				"Value": "Mozilla\\/[0-9].[0-9]"
+			},
+			{
+				"Type": "Regex",
+				"Value": "Android [0-9].[0-9].[0-9];"
+			}
+		]
+	},
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null,
+	null
+]
