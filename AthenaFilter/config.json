@@ -1,0 +1,77 @@
+[
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "Type": "And",
+    "Conditions": [
+      {
+        "Condition": {
+          "Type": "Contains",
+          "MatchCase": false,
+          "Value": "assets"
+        },
+        "Type": "Not"
+      },
+      {
+        "Condition": {
+          "Type": "Contains",
+          "MatchCase": false,
+          "Value": "langimg"
+        },
+        "Type": "Not"
+      },
+      {
+        "Condition": {
+          "Type": "Contains",
+          "MatchCase": false,
+          "Value": "css"
+        },
+        "Type": "Not"
+      },
+      {
+        "Condition": {
+          "Type": "Contains",
+          "MatchCase": false,
+          "Value": "fonts"
+        },
+        "Type": "Not"
+      },
+      {
+        "Condition": {
+          "Type": "Contains",
+          "MatchCase": false,
+          "Value": "jquery"
+        },
+        "Type": "Not"
+      }
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+]
