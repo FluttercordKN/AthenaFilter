@@ -56,7 +56,7 @@ namespace AthenaFilter
 
     public class ConditionOr : ConditionSet
     {
-        public override ConditionType Type => ConditionType.And;
+        public override ConditionType Type => ConditionType.Or;
 
         public override bool Execute(string arg)
         {
